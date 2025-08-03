@@ -1,0 +1,11 @@
+Age,Department,YearsAtCompany,MonthlyIncome,JobSatisfaction,OverTime,Attrition
+25,Sales,2,4000,3,Yes,Yes
+45,HR,10,6000,4,No,No
+35,IT,5,5000,2,Yes,Yes
+28,Sales,3,4200,3,No,No
+50,Finance,20,8000,4,No,No
+30,IT,4,4500,2,Yes,Yes
+32,HR,2,3900,3,No,No
+40,Finance,15,7000,4,No,No
+26,Sales,1,3800,2,Yes,Yes
+38,IT,8,5500,3,No,No

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Attrition Prediction</title>
+    <style>
+        body {
+            background: #f0f4f8;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            background: #fff;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 25px;
+            font-size: 18px;
+            text-align: center;
+            color: #2d3436;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Attrition Predictor</h1>
+        <form method="POST">
+            <label for="age">Age:</label>
+            <input type="number" name="age" required>
+
+            <label for="department">Department:</label>
+            <select name="department" required>
+                <option>Sales</option>
+                <option>HR</option>
+                <option>IT</option>
+                <option>Finance</option>
+            </select>
+
+            <label for="years_at_company">Years at Company:</label>
+            <input type="number" name="years_at_company" required>
+
+            <label for="monthly_income">Monthly Income:</label>
+            <input type="number" name="monthly_income" required>
+
+            <label for="job_satisfaction">Job Satisfaction (1-4):</label>
+            <input type="number" name="job_satisfaction" min="1" max="4" required>
+
+            <label for="overtime">OverTime:</label>
+            <select name="overtime" required>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <input type="submit" value="Predict Attrition">
+        </form>
+
+        {% if prediction %}
+        <div class="result">
+            <strong>Prediction:</strong> {{ prediction }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
