@@ -18,16 +18,6 @@ This project leverages the Gradient Boosting Classifier to predict whether an em
 
 ---
 
-## How It Works
-
-1. **Data Collection**: Loads a CSV dataset of labeled spam and ham messages.
-2. **Preprocessing**: Removes punctuation, stopwords, and applies stemming.
-3. **Vectorization**: Converts text into numeric features using CountVectorizer.
-4. **Model Training**: Trains a Multinomial Naive Bayes classifier.
-5. **Web App**: User enters a message → Model predicts if it's spam → Displays result.
-
----
-
 ## Project Structure
 
 ```
