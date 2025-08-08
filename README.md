@@ -65,7 +65,15 @@ Visit: http://localhost:10000
 
 ## Screenshots
 
-<img width="922" height="891" alt="image" src="https://github.com/user-attachments/assets/2fd7c002-09ab-4c78-94e3-a1d8f0769373" />
+### Step 1
+<img width="1886" height="906" alt="image" src="https://github.com/user-attachments/assets/643d8f90-8461-4ee6-bdd6-f20951ab884a" />
+
+### Step 2
+<img width="1887" height="907" alt="image" src="https://github.com/user-attachments/assets/6eac19a9-4153-473d-8c4b-37d361bc807a" />
+
+### Step 3
+<img width="1858" height="895" alt="image" src="https://github.com/user-attachments/assets/a5d50b7c-a03e-434c-8bbf-f63e93c7e1e7" />
+
 
 ## Future Improvements
 
